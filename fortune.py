@@ -16,6 +16,7 @@ def get_fortune():
     return output
 
 window = Tk()
+window.title("fortune")
 frame = Frame(window)
 frame.pack(expand=True)
 
